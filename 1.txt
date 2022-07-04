@@ -1,0 +1,120 @@
+python -m playwright codegen --target python -o my.py -b chromium https://www.baidu.com
+
+录制，保留cookie和localStorage信息到auth.json文件：playwright codegen --save-storage=auth.json 
+
+移动端（模拟iPhone 11）：playwright codegen --device="iPhone 11" wikipedia.org
+
+模拟其他：
+（大小，颜色）playwright codegen --viewport-size=800,600 --color-scheme=dark twitter.com
+（时区、地址、语言）playwright codegen --timezone="Europe/Rome" --geolocation="41.890221,12.492348" --lang="it-IT" maps.google.com
+
+pytest --headed --browser(-channel) firefox
+
+生成测试报告：pytest --html=report.html
+
+# 用慢动作运行测试
+pytest --slowmo 100
+ 
+# 指定谷歌浏览器，开启记录每次测试的轨迹(生成一个.zip包，存放在test-results文件夹中)
+pytest --browser chromium --tracing on（on:开；off:关）
+ 
+# 指定谷歌浏览器，开启每次测试录制视频(生成一个.webm包，存放在test-results文件夹中)
+pytest --browser chromium --video on（on:开；off:关）
+ 
+# 指定谷歌浏览器，开启每次测试后是否自动截屏(生成一个.png图片，存放在test-results文件夹中)
+pytest --browser chromium --screenshot on
+
+
+
+cd C://Users//AOS-Online//Desktop//1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
